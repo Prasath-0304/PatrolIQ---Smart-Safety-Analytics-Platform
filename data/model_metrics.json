@@ -1,0 +1,48 @@
+{
+  "sample_size": 5000.0,
+  "kmeans_silhouette": 0.4209615981369172,
+  "kmeans_davies_bouldin": 0.7919644181035961,
+  "dbscan_silhouette": 0.6279266030690175,
+  "dbscan_davies_bouldin": 0.30528885137179607,
+  "hierarchical_silhouette": 0.3441687713803594,
+  "hierarchical_davies_bouldin": 0.9558667035296423,
+  "elbow_curve": [
+    {
+      "k": 2.0,
+      "inertia": 22.432807645680292
+    },
+    {
+      "k": 3.0,
+      "inertia": 16.64405536724474
+    },
+    {
+      "k": 4.0,
+      "inertia": 12.889940799480726
+    },
+    {
+      "k": 5.0,
+      "inertia": 9.971014770797757
+    },
+    {
+      "k": 6.0,
+      "inertia": 8.238415193345517
+    },
+    {
+      "k": 7.0,
+      "inertia": 6.635618106383582
+    },
+    {
+      "k": 8.0,
+      "inertia": 5.6365620146139275
+    },
+    {
+      "k": 9.0,
+      "inertia": 5.080205723060647
+    },
+    {
+      "k": 10.0,
+      "inertia": 4.553785809280597
+    }
+  ],
+  "best_algorithm": "DBSCAN"
+}
